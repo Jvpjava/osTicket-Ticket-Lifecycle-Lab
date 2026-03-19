@@ -34,7 +34,9 @@ In this lab, I practiced how to:
 ---
 
 ## Lab Environment
-
+<p align="center">
+  <img src="images/1. Network Topology.png" width="900">
+</p>
 ### Systems Used
 - **Windows Server 2019 Domain Controller**
 - **Windows 10 Enterprise virtual machines**
