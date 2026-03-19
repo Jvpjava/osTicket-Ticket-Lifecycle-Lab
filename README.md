@@ -62,11 +62,13 @@ Turned on Desktop1 windows machine with helpdesk1 credentials.
 <p align="center"><img src="images/1. Login to helpdesk1 Domain.png" width="700"></p>
 <p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
 
-From there, I accessed the osTicket admin panel 
+From there, I accessed the osTicket admin panel: `http://DC-2019/osTicket/scp/login.php`
 <p align="center"><img src="images/2. osTicket Login.png" width="700"></p>
 <p align="center"><img src="images/2. osTicket Admin Panel.png" width="700"></p>
 
 and adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
+<p align="center"><img src="images/3. Delete Maintenance Department.png" width="700"></p>
+
 
 ### 2. Created a New Domain User
 Using **Active Directory Users and Computers**, I created a new user account for:
@@ -80,9 +82,23 @@ This simulated onboarding a real end user into the organization.
 ### 3. Built a New End-User Workstation
 I then created a new Windows 10 virtual machine named **Desktop2** in VirtualBox with:
 
+<p align="center"><img src="images/4. Create Windows VM.png" width="700"></p>
+
 - **2 CPUs**
 - **4 GB RAM**
+<p align="center"><img src="images/4. Windows VM Ram-CPU.png" width="700"></p>
 - **50 GB storage**
+<p align="center"><img src="images/5. Windows VM Storage.png" width="700"></p>
+
+Now Windows Installation
+<p align="center"><img src="images/6. Start Your VM.png" width="700"></p>
+<p align="center"><img src="images/6. OS Setup.png" width="700"></p>
+<p align="center"><img src="images/6. OS Windows Pro.png" width="700"></p>
+<p align="center"><img src="images/6. OS Custom Drive.png" width="700"></p>
+<p align="center"><img src="images/6. OS Installation.png" width="700"></p>
+<p align="center"><img src="images/6. Desktop2 PC Name.png" width="700"></p>
+<p align="center"><img src="images/6. Windows Getting Ready.png" width="700"></p>
+
 
 After installation, I configured the network, pointed IPv4 DNS toward the domain controller, renamed the machine, and joined it to the domain.  
 This allowed the new workstation to authenticate against Active Directory and appear as a managed company device.
