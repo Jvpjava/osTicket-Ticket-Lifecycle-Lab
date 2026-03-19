@@ -115,12 +115,13 @@ Set Desktop2 IPv4 DNS to point to the Domain Controller for domain resolution
 <p align="center"><img src="images/7. Desktop Points DC-2019.png" width="700"></p>
 Joined Desktop2 from a workgroup to the Active Directory domain
 <p align="center"><img src="images/7. Desktop2 Workgroup to Domain.png" width="700"></p>
+<p align="center"><img src="images/7. Domain Signin.png" width="700"></p>
 <p align="center"><img src="images/7. Welcome to GetHired.com.png" width="700"></p>
 <p align="center"><img src="images/7. Verification for Domain Network.png" width="700"></p>
-<p align="center"><img src="images/7. Domain Signin.png" width="700"></p>
 Verified that Desktop2 successfully appears in Active Directory (ADUC) under domain computers
 <p align="center"><img src="images/7. AD Service Computers - Desktop2.png" width="700"></p>
-
+VM is running and operating
+<p align="center"><img src="images/7. VM is running and operating.png" width="700"></p>
 
 
 ### 5. Logged in as the End User
