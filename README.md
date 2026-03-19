@@ -103,7 +103,27 @@ Now Windows Installation
 After installation, I configured the network, pointed IPv4 DNS toward the domain controller, renamed the machine, and joined it to the domain.  
 This allowed the new workstation to authenticate against Active Directory and appear as a managed company device.
 
-### 4. Logged in as the End User
+### 4. Workstation Domain Configuration
+
+Configured VirtualBox network adapter to use Host-Only Adapter for isolated lab communication
+<p align="center"><img src="images/7. VB Network Settings.png" width="700"></p>
+Renamed the virtual machine to Desktop2 for proper identification in the domain
+<p align="center"><img src="images/7. Change Computer Name 2.png" width="700"></p>
+Retrieved the Domain Controller’s IP address (DC-2019) using ipconfig /all
+<p align="center"><img src="images/7. DC-2019 IPV4 Address.png" width="700"></p>
+Set Desktop2 IPv4 DNS to point to the Domain Controller for domain resolution
+<p align="center"><img src="images/7. Desktop Points DC-2019.png" width="700"></p>
+Joined Desktop2 from a workgroup to the Active Directory domain
+<p align="center"><img src="images/7. Desktop2 Workgroup to Domain.png" width="700"></p>
+<p align="center"><img src="images/7. Welcome to GetHired.com.png" width="700"></p>
+<p align="center"><img src="images/7. Verification for Domain Network.png" width="700"></p>
+<p align="center"><img src="images/7. Domain Signin.png" width="700"></p>
+Verified that Desktop2 successfully appears in Active Directory (ADUC) under domain computers
+<p align="center"><img src="images/7. AD Service Computers - Desktop2.png" width="700"></p>
+
+
+
+### 5. Logged in as the End User
 After the machine joined the domain, I signed into **Desktop2** using Karen’s domain account.  
 From there, I accessed the osTicket end-user portal to submit tickets as if I were a real employee needing support.
 
