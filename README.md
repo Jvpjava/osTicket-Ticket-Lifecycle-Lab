@@ -54,7 +54,10 @@ In this lab, I practiced how to:
 ## What I Built
 
 ### 1. Prepared the Help Desk Environment
-I started by powering on the domain controller and signing into the help desk workstation.  
+I started by powering on the domain controller and signing into the help desk workstation. 
+
+<p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
+
 From there, I accessed the osTicket admin panel and adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
 
 ### 2. Created a New Domain User
