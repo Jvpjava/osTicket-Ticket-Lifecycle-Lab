@@ -58,7 +58,15 @@ I started by powering on the domain controller and signing into the help desk wo
 
 <p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
 
-From there, I accessed the osTicket admin panel and adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
+Turned on Desktop1 windows machine with helpdesk1 credentials.
+<p align="center"><img src="images/1. Login to helpdesk1 Domain.png" width="700"></p>
+<p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
+
+From there, I accessed the osTicket admin panel 
+<p align="center"><img src="images/2. osTicket Login.png" width="700"></p>
+<p align="center"><img src="images/2. osTicket Admin Panel.png" width="700"></p>
+
+and adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
 
 ### 2. Created a New Domain User
 Using **Active Directory Users and Computers**, I created a new user account for:
