@@ -15,6 +15,10 @@ This lab shows how a help desk workflow operates in a structured IT environment 
 ## Project Goals
 In this lab, I practiced how to:
 
+<p align="center">
+  <img src="images/AD and VB.png" width="900">
+</p>
+
 - Create and manage users in **Active Directory**
 - Deploy and configure a new **Windows 10 virtual machine**
 - Join a workstation to a **Windows Server domain**
