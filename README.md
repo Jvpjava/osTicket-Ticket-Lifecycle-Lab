@@ -1,5 +1,9 @@
 # osTicket Ticket Lifecycle Lab
 
+<p align="center">
+  <img src="images/Osticket Project Cover.png" width="900">
+</p>
+
 ## Overview
 This project documents a hands-on **osTicket help desk lab** built in a Windows domain environment.  
 The goal was to simulate how support teams handle tickets from creation to closure while working with **Active Directory, domain-joined endpoints, user permissions, SLAs, departments, and ticket escalation**.
