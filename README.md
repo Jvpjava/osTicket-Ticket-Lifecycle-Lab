@@ -34,15 +34,16 @@ In this lab, I practiced how to:
 ---
 
 ## Lab Environment
-<p align="center">
-  <img src="images/1. Network Topology.png" width="900">
-</p>
 ### Systems Used
 - **Windows Server 2019 Domain Controller**
 - **Windows 10 Enterprise virtual machines**
 - **osTicket**
 - **Active Directory Users and Computers**
 - **VirtualBox**
+
+<p align="center">
+  <img src="images/1. Network Topology.png" width="900">
+</p>
 
 ### URLs Used
 - **Admin / Analyst Login:** `http://DC-2019/osTicket/scp/login.php`
