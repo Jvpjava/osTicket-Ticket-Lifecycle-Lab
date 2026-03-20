@@ -60,27 +60,19 @@ Turned on Desktop1 windows machine with helpdesk1 credentials.
 <p align="center"><img src="images/1. Login to helpdesk1 Domain.png" width="700"></p>
 <p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
 
-From there, I accessed the osTicket admin panel: `http://DC-2019/osTicket/scp/login.php`
-<p align="center"><img src="images/2. osTicket Admin Panel.png" width="700"></p>
+From there, I accessed the osTicket Login: `http://DC-2019/osTicket/scp/login.php`
 <p align="center"><img src="images/2. osTicket Login.png" width="700"></p>
 
 adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
 <p align="center"><img src="images/3. Delete Maintenance Department.png" width="700"></p>
 
-
-### 2. Created a New Domain User
-Using **Active Directory Users and Computers**, I created a new user account for:
-
-- **Name:** Karen Valerio
-- **Email:** `KarenValerio@Gethired.com`
-- **Username:** `KarenV`
-
-This simulated onboarding a real end user into the organization.
-
-### 3. Logged in as the End User
+### 2. Logged in as the End User
 Sign into **Desktop2** using Karen’s domain account.  
 From there, I accessed the osTicket end-user portal to submit tickets as if I were a real employee needing support.
 
+<p align="center"><img src="images/9. Signin To Domain.png" width="700"></p>
+<p align="center"><img src="images/9. Gethired-KarenV.png" width="700"></p>
+<p align="center"><img src="images/9. KarenV in Windows Machine.png" width="700"></p>
 ---
 
 ## Ticket Scenarios Completed
