@@ -73,52 +73,86 @@ From there, I accessed the osTicket end-user portal to submit tickets as if I we
 <p align="center"><img src="images/9. Signin To Domain.png" width="700"></p>
 <p align="center"><img src="images/9. Gethired-KarenV.png" width="700"></p>
 <p align="center"><img src="images/9. KarenV in Windows Machine.png" width="700"></p>
+Now Go to [DC-2019](http://DC-2019/osTicket)
+<p align="center"><img src="images/10. Dc-2019 osTicket website.png" width="700"></p>
 ---
 
 ## Ticket Scenarios Completed
 
 ### Ticket 1: Entire mobile/online banking system is down
 As Karen, I created a ticket reporting a banking outage.
+<p align="center"><img src="images/10. Creating a ticket with KarenV.png" width="700"></p>
+<p align="center"><img src="images/10. Ticket has been created.png" width="700"></p>
+
 
 As a help desk agent, I reviewed the ticket and checked:
 
-- Priority
-- Department
-- SLA
-- Assigned technician
+John Logs in to osTicket
+<p align="center"><img src="images/11. Desktop1 osTicket JohnDoe login.png" width="700"></p>
+<p align="center"><img src="images/11. JohnDoe Signed in.png" width="700"></p>
+
+John responds to the ticket
+<p align="center"><img src="images/12. John Looks at the ticket.png" width="700"></p>
+<p align="center"><img src="images/12. John responds to Karen.png" width="700"></p>
 
 At first, the agent account did not have permission to fully manage the ticket.  
 I logged in as an administrator and updated the agent’s access so the ticket could be worked correctly.
 
-I then updated the ticket with:
+<p align="center"><img src="images/13. Give John All Access.png" width="700"></p>
+<p align="center"><img src="images/13. Give John Supreme Access.png" width="700"></p>
 
-- **SLA:** Sev-A (1 hour, 24/7)
-- **Department:** Online Banking
+Now that john has access he needs to change somethings around that Karen failed to input.
+John then updated the ticket with:
+- Priority
+ <p align="center"><img src="images/14. Fixing Priority .png" width="700"></p>
+- Department
+  <p align="center"><img src="images/18. Assign to SysAdmins.png" width="700"></p>
+- SLA
+   <p align="center"><img src="images/15. Change SLA Plan.png" width="700"></p>
+- The issue was escalated to system administration and assigned to Jane for completion. 
+  <p align="center"><img src="images/17. Assign Ticket to Jane.png" width="700"></p>
 
-The issue was escalated to system administration and assigned to Jane for completion.  
-Jane reviewed the full ticket history, responded, resolved the issue, and closed the ticket.
+
+ 
+Jane reviewed the full ticket history
+<p align="center"><img src="images/20. Conversation History.png" width="700"></p>
+
+Jane responded, 
+<p align="center"><img src="images/21. Jane Responds.png" width="700"></p>
+<p align="center"><img src="images/21. Jane Responds 2.png" width="700"></p>
+
+resolved the issue
+<p align="center"><img src="images/22. Jane Resolves the ticket.png" width="700"></p>
+
+and closed the ticket.
+<p align="center"><img src="images/23. Jane Closed Ticket.png" width="700"></p>
+
 
 ### Ticket 2: Accounting department needs Adobe upgrade, broken
-As Karen, I created another ticket for a software-related support issue.
+Ken, created another ticket for a software-related support issue.
+<p align="center"><img src="images/24. Created Ticket.png" width="700"></p>
+<p align="center"><img src="images/24. KenV New Ticket.png" width="700"></p>
 
-As the help desk agent, I reviewed the same key ticket properties and then updated the ticket with:
+As a help desk agent John sees the tiocket and replies to the end user.
+<p align="center"><img src="images/25. John Doe Sees the ticket.png" width="700"></p>
+<p align="center"><img src="images/26. Ken Replies to the user.png" width="700"></p>
+
+reviewed the same key ticket properties and then updated the ticket with:
 
 - **SLA:** Sev-B (4 hours, 24/7)
 - **Department:** Support
+
+<p align="center"><img src="images/27. Update SLA Plan.png" width="700"></p>
+<p align="center"><img src="images/28. New Priority Level.png" width="700"></p>
 
 The ticket was then worked through to completion from the agent side.
+<p align="center"><img src="images/29. Solution.png" width="700"></p>
+<p align="center"><img src="images/29. Solution (2).png" width="700"></p>
 
-### Ticket 3: CFO’s laptop will no longer turn on
-This scenario simulated a hardware failure involving a high-value user device.
+Closed the ticket
+<p align="center"><img src="images/30. Closed Ticket.png" width="700"></p>
+<p align="center"><img src="images/30. Closed Ticket 2.png" width="700"></p>
 
-Again, I reviewed the ticket properties and assigned:
-
-- **SLA:** Sev-B (4 hours, 24/7)
-- **Department:** Support
-
-I then worked the issue through the help desk workflow until it was resolved.
-
----
 
 ## Permission and Escalation Testing
 One of the biggest things I practiced in this lab was how **permissions affect ticket visibility and control**.
