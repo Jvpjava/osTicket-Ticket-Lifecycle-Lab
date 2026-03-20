@@ -61,10 +61,10 @@ Turned on Desktop1 windows machine with helpdesk1 credentials.
 <p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
 
 From there, I accessed the osTicket admin panel: `http://DC-2019/osTicket/scp/login.php`
-<p align="center"><img src="images/2. osTicket Login.png" width="700"></p>
 <p align="center"><img src="images/2. osTicket Admin Panel.png" width="700"></p>
+<p align="center"><img src="images/2. osTicket Login.png" width="700"></p>
 
-and adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
+adjusted the department structure by making **SysAdmins** a top-level department and deleting the **Maintenance** department.
 <p align="center"><img src="images/3. Delete Maintenance Department.png" width="700"></p>
 
 
