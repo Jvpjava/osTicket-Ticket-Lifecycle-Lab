@@ -19,9 +19,7 @@ In this lab, I practiced how to:
   <img src="images/AD and VB.png" width="900">
 </p>
 
-- Create and manage users in **Active Directory**
 - Deploy and configure a new **Windows 10 virtual machine**
-- Join a workstation to a **Windows Server domain**
 - Use **osTicket** as both an end user and a help desk agent
 - Review and update ticket properties such as:
   - Priority
