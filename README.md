@@ -87,7 +87,7 @@ As Karen, I created a ticket reporting a banking outage.
 
 As a help desk agent, I reviewed the ticket and checked:
 
-John Logs in to osTicket
+John Logs in to osTicket Make sure you log in with Desktop1 with helpdesk1 credentials.
 <p align="center"><img src="images/11. Desktop1 osTicket JohnDoe login.png" width="700"></p>
 <p align="center"><img src="images/11. JohnDoe Signed in.png" width="700"></p>
 
