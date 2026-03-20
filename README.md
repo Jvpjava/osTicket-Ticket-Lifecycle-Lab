@@ -130,8 +130,8 @@ and closed the ticket.
 
 ### Ticket 2: Accounting department needs Adobe upgrade, broken
 Ken, created another ticket for a software-related support issue.
-<p align="center"><img src="images/24. Created Ticket.png" width="700"></p>
 <p align="center"><img src="images/24. KenV New Ticket.png" width="700"></p>
+<p align="center"><img src="images/24. Created Ticket.png" width="700"></p>
 
 As a help desk agent John sees the tiocket and replies to the end user.
 <p align="center"><img src="images/25. John Doe Sees the ticket.png" width="700"></p>
