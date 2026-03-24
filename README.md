@@ -59,11 +59,13 @@ In this lab, I practiced how to:
 ## What I Built
 
 ### 1. Prepared the Help Desk Environment
-The Domain Controller must remain online because it provides DNS resolution and hosts the IIS web server running osTicket, making it essential for both name resolution and application access.
+I started by powering on the domain controller to provide services to the other domain VM's and signing into the help desk workstation. 
 
-When the Domain Controller is offline, clients cannot resolve the hostname via DNS, and the web service hosting osTicket is also unavailable. As a result, the application becomes completely inaccessible.
+- The Domain Controller must remain online because it provides DNS resolution and hosts the IIS web server running osTicket, making it essential for both name resolution and application access.
 
-- I started by powering on the domain controller to provide services to the other domain VM's and signing into the help desk workstation. 
+- When the Domain Controller is offline, clients cannot resolve the hostname via DNS, and the web service hosting osTicket is also unavailable. As a result, the application becomes completely inaccessible.
+
+
 
 <p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
 
