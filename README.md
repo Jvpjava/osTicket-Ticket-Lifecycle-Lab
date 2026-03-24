@@ -10,6 +10,10 @@ The goal was to simulate how support teams handle tickets from creation to closu
 
 This lab shows how a help desk workflow operates in a structured IT environment and how different roles interact with the same ticket from end user to resolution.
 
+<p align="center">
+  <img src="images/AD and VB.png" width="900">
+</p>
+
 ## Prerequisites
 
 Complete VirtualBox setup and osTicket pre-installation before continuing.
@@ -21,10 +25,6 @@ Complete VirtualBox setup and osTicket pre-installation before continuing.
 
 ## Project Goals
 In this lab, I practiced how to:
-
-<p align="center">
-  <img src="images/AD and VB.png" width="900">
-</p>
 
 - Deploy and configure a new **Windows 10 virtual machine**
 - Use **osTicket** as both an end user and a help desk agent
