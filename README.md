@@ -65,7 +65,9 @@ I started by powering on the domain controller to provide services to the other 
 
 - When the Domain Controller is offline, clients cannot resolve the hostname via DNS, and the web service hosting osTicket is also unavailable. As a result, the application becomes completely inaccessible.
 
-
+- For example accessing the URLS:
+      - **Admin / Analyst Login:** `http://DC-2019/osTicket/scp/login.php`
+      - **End User Portal:** `http://DC-2019/osTicket`
 
 <p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
 
