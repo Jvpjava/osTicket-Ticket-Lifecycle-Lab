@@ -73,8 +73,8 @@ I started by powering on the domain controller to provide services to the other 
 <p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
 
 Turned on Desktop1 windows machine with helpdesk1 credentials.
- - Desktop1 / Helpdesk1 will be used by administrators.
- - Such as John Doe and Jane Doe
+ - Desktop1 will be used by administrators such as John Doe and Jane Doe.
+ - Helpdesk1 credentials will be used by John Doe and Jane Doe.
 <p align="center"><img src="images/1. Login to helpdesk1 Domain.png" width="700"></p>
 <p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
 
@@ -85,8 +85,12 @@ adjusted the department structure by making **SysAdmins** a top-level department
 <p align="center"><img src="images/3. Delete Maintenance Department.png" width="700"></p>
 
 ### 2. Logged in as the End User
+- Desktop2 Computer will be used by Karen Valerio and Ken Valerio.
+- Karen Valerio and Ken Valerio have their own crendetials respectively.
+- For the first Ticket ill sign in with Karens crendentials and the second Ticket ill sign in as Ken Valerio.
+
 Sign into **Desktop2** using Karen’s domain account.  
-From there, I accessed the osTicket end-user portal to submit tickets as if I were a real employee needing support.
+- From there, I accessed the osTicket end-user portal to submit tickets as if I were a real employee needing support.
 
 <p align="center"><img src="images/9. Signin To Domain.png" width="700"></p>
 <p align="center"><img src="images/9. Gethired-KarenV.png" width="700"></p>
