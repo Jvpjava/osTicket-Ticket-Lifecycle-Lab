@@ -73,6 +73,8 @@ I started by powering on the domain controller to provide services to the other 
 <p align="center"><img src="images/1. DC-2019 ON.png" width="700"></p>
 
 Turned on Desktop1 windows machine with helpdesk1 credentials.
+ - Desktop1 / Helpdesk1 will be used by administrators.
+ - Such as John Doe and Jane Doe
 <p align="center"><img src="images/1. Login to helpdesk1 Domain.png" width="700"></p>
 <p align="center"><img src="images/1. helpdesk1 System Settings.png" width="700"></p>
 
