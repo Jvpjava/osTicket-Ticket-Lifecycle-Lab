@@ -10,7 +10,7 @@ The goal was to simulate how support teams handle tickets from creation to closu
 
 This lab shows how a help desk workflow operates in a structured IT environment and how different roles interact with the same ticket from end user to resolution.
 
-** * Important - System Installation for virtualbox vm's and Pre-installations for osTicket.
+# Important - System Installation for virtualbox vm's and Pre-installations for osTicket.
 
   - [osTicket Help Desk Deployment with Virtualbox — Part 1 (System Installation)](https://github.com/Jvpjava/osTicket-Help-Desk-Deployment-and-Incident-Management-Lab)
   - [osTicket Help Desk Deployment with Virtualbox— Part 2 (Post Installation Set-Up)](https://github.com/Jvpjava/osTicket-Help-Desk-Lab-VirtualBox-/tree/main)
