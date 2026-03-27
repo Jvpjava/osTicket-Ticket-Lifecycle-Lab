@@ -151,6 +151,9 @@ and closed the ticket.
 
 
 ### Ticket 2: Accounting department needs Adobe upgrade, broken
+Signin to KenV through Windows with AD Credentials
+<p align="center"><img src="images/9. Gethired-KenV.png" width="700"></p>
+<p align="center"><img src="images/9. KenV Welcome Screen.png" width="700"></p>
 Ken, created another ticket for a software-related support issue.
 <p align="center"><img src="images/24. KenV New Ticket.png" width="700"></p>
 <p align="center"><img src="images/24. Created Ticket.png" width="700"></p>
