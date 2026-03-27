@@ -39,7 +39,6 @@ In this lab, I practiced how to:
 ---
 
 ## Enviorment - Technology - Applications - Services Used
-### Systems Used
 - **Windows Server 2019 Domain Controller**
 - **Windows 10 Enterprise virtual machines**
 - **osTicket**
