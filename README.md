@@ -56,7 +56,7 @@ In this lab, I practiced how to:
 
 ---
 
-## What I Built
+## Deployment and Configuration Steps
 
 ### 1. Prepared the Help Desk Environment
 I started by powering on the domain controller to provide services to the other domain VM's and signing into the help desk workstation. 
