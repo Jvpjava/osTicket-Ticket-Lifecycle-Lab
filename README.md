@@ -4,7 +4,7 @@
   <img src="images/Osticket Project Cover.png" width="900">
 </p>
 
-## Overview
+## Summary
 This project documents a hands-on **osTicket help desk lab** built in a Windows domain environment.  
 The goal was to simulate how support teams handle tickets from creation to closure while working with **Active Directory, domain-joined endpoints, user permissions, SLAs, departments, and ticket escalation**.
 
@@ -38,7 +38,7 @@ In this lab, I practiced how to:
 
 ---
 
-## Lab Environment
+## Enviorment - Technology - Applications - Services Used
 ### Systems Used
 - **Windows Server 2019 Domain Controller**
 - **Windows 10 Enterprise virtual machines**
