@@ -23,7 +23,7 @@ Complete VirtualBox setup and osTicket pre-installation before continuing.
 
 ---
 
-## Project Goals
+## Tutorial - Implementation
 In this lab, I practiced how to:
 
 - Deploy and configure a new **Windows 10 virtual machine**
